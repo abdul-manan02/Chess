@@ -60,58 +60,6 @@ def evaluate(board):
     return fScore
 
 
-
-
-# def minimax(board):
-#     if terminal(board):
-#         return None
-#     if player(board) == 'X':
-#         v = -math.inf
-#         action = None
-#         for move in actions(board):
-#             min_v = min_val
-#             result_board = result(board, move)
-#             max_v = max_value(result_board)
-#             if max_v > v:
-#                 v = max_v
-#                 action = move
-#         return action
-#     else:
-#         v = math.inf
-#         action = None
-#         for move in actions(board):
-#             result_board = result(board, move)
-#             min_v = min_value(result_board)
-#             if min_v < v:
-#                 v = min_v
-#                 action = move
-#         return action
-# def alpha_beta_pruining(board):
-#     alpha = -math.inf
-#     beta = math.inf
-#     if terminal(board):
-#         return None
-#     if player(board) == 'X':
-#         v = -math.inf
-#         action = None
-#         for move in actions(board):
-#             min_v = min_value
-#             result_board = result(board, move)
-#             max_v = max_val(result_board,alpha,beta)
-#             if max_v > v:
-#                 v = max_v
-#                 action = move
-#         return action
-#     else:
-#         v = math.inf
-#         action = None
-#         for move in actions(board):
-#             result_board = result(board, move)
-#             min_v = min_val(result_board,alpha,beta)
-#             if min_v < v:
-#                 v = min_v
-#                 action = move
-#         return action
     
 # Depth will be specified by user, it basically represents the depth till which the algorithm will 
 # search for the best solution.
